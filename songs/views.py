@@ -13,5 +13,6 @@ class SongListView(ListView):
 
     def get_context_data(self, **kwargs):
         context = super(SongListView, self).get_context_data(**kwargs)
-        context['songs'] = SongTable(Song.objects.all())
+        table = SongTable(Song.objects.all())
+        context['songs'] = RequestConfig(self.request, paginate={'per_page': 10}).configure(table)
         return context

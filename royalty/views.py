@@ -13,5 +13,6 @@ class RoyaltyListView(ListView):
 
     def get_context_data(self, **kwargs):
         context = super(RoyaltyListView, self).get_context_data(**kwargs)
-        context['royalty'] = RoyaltyTable(Royalty.objects.all())
+        table = RoyaltyTable(Royalty.objects.all())
+        context['royalty'] = RequestConfig(self.request, paginate={'per_page': 10}).configure(table)
         return context

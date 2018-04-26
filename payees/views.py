@@ -13,5 +13,6 @@ class PayeeListView(ListView):
 
     def get_context_data(self, **kwargs):
         context = super(PayeeListView, self).get_context_data(**kwargs) 
-        context['payees'] = PayeeTable(Payee.objects.all())
+        table = PayeeTable(Payee.objects.all())
+        context['payees'] = RequestConfig(self.request, paginate={'per_page': 10}).configure(table)
         return context

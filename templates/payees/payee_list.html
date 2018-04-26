@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load render_table from django_tables2 %}
+{% load humanize %}
+{% load export_url from django_tables2 %}
+
+{% block meta_title %}{% trans "Payee List" %}{% endblock %}
+{% block title %}<p style="text-align:center">{% trans "Payee List" %}</p>{% endblock %}
+
+{% block main %}
+
+<div>
+    <h3 style="text-align:center">{% trans "Payee List" %}</h3>
+        {% render_table payees %}
+</div>
+
+{% endblock %}
