@@ -2,5 +2,9 @@
 from __future__ import unicode_literals
 
 from django.contrib import admin
+from payees.models import Payee
 
-# Register your models here.
+class PayeeAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(Payee, PayeeAdmin)

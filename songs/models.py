@@ -14,6 +14,9 @@ class Song(models.Model):
     channel = models.ForeignKey(Channel, on_delete=models.CASCADE)
     royalty = models.ForeignKey(Royalty, on_delete=models.CASCADE)
 
+    def __unicode__(self):
+        return '%s' % (self.title)
+
     class Meta:
         verbose_name = _('Song')
         verbose_name_plural = _('Songs')
