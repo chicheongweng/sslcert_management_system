@@ -6,19 +6,16 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 from channels.models import Channel
 from royalty.models import Royalty
-
-PAYEE_TYPES = (
-    ('singer', 'Singer'),
-    ('author', 'Author'),
-    ('company', 'Company')
-)
+from django.conf import settings
 
 class Payee(models.Model):
-    TYPE = Choices(_('Company'), _('Singer'), _('Author'))
-    payee_type = models.CharField(_('payee type'), max_length=32, choices=PAYEE_TYPES, default='singer')
+    payee_type = models.CharField(_('payee type'), max_length=32, choices=settings.PAYEE_TYPES, default='singer')
     name = models.CharField(_('name'), max_length=256)
     royalty = models.ForeignKey(Royalty, on_delete=models.CASCADE)
     percentage = models.FloatField(_('percentage'), default=0.0)
+
+    def __unicode__(self):
+        return '%s, %s, %s' % (self.name, self.payee_type, self.percentage )
 
     class Meta:
         verbose_name = _('Payee')
