@@ -1,0 +1,2550 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "redirects",
+        "model": "redirect"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "sites",
+        "model": "site"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "conf",
+        "model": "setting"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "core",
+        "model": "sitepermission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "generic",
+        "model": "assignedkeyword"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "generic",
+        "model": "rating"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "generic",
+        "model": "keyword"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "generic",
+        "model": "threadedcomment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "pages",
+        "model": "page"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "pages",
+        "model": "richtextpage"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "pages",
+        "model": "link"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "channels",
+        "model": "channel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "royalty",
+        "model": "royalty"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "payees",
+        "model": "payee"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "songs",
+        "model": "song"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "django_comments",
+        "model": "commentflag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "django_comments",
+        "model": "comment"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9cr6t4ivjgx9wr0iy7wgbnkc23o0ixyj",
+    "fields": {
+        "session_data": "NmFjYmM3MGJhMjM4ZDUxNjZlOTZmODMxZmU2MjhiMDI4ZTkxY2RkMDp7Il9hdXRoX3VzZXJfaGFzaCI6IjFkNWY5Mjg2NmI1MTFmZjhiMTIxYTBiOWZlMzViNWQyZDA0MWU2MmIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJtZXp6YW5pbmUuY29yZS5hdXRoX2JhY2tlbmRzLk1lenphbmluZUJhY2tlbmQiLCJfYXV0aF91c2VyX2lkIjoiMSJ9",
+        "expire_date": "2018-05-10T13:27:04.156Z"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "channels.channel",
+    "pk": 1,
+    "fields": {
+        "name": "Youtube"
+    }
+},
+{
+    "model": "channels.channel",
+    "pk": 2,
+    "fields": {
+        "name": "Spotify"
+    }
+},
+{
+    "model": "channels.channel",
+    "pk": 3,
+    "fields": {
+        "name": "Tencent Music"
+    }
+},
+{
+    "model": "channels.channel",
+    "pk": 4,
+    "fields": {
+        "name": "FM 97.5"
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 1,
+    "fields": {
+        "created_at": "2018-04-26T13:27:52.962Z",
+        "pay_date": "2008-04-28",
+        "amount": 394.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 2,
+    "fields": {
+        "created_at": "2018-04-26T13:27:52.979Z",
+        "pay_date": "2016-04-26",
+        "amount": 175.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 3,
+    "fields": {
+        "created_at": "2018-04-26T13:27:52.994Z",
+        "pay_date": "2010-04-28",
+        "amount": 716.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 4,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.008Z",
+        "pay_date": "2011-04-28",
+        "amount": 178.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 5,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.024Z",
+        "pay_date": "2013-04-27",
+        "amount": 242.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 6,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.039Z",
+        "pay_date": "2013-04-27",
+        "amount": 329.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 7,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.054Z",
+        "pay_date": "2017-04-26",
+        "amount": 700.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 8,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.072Z",
+        "pay_date": "2011-04-28",
+        "amount": 649.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 9,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.087Z",
+        "pay_date": "2009-04-28",
+        "amount": 690.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 10,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.101Z",
+        "pay_date": "2009-04-28",
+        "amount": 229.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 11,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.117Z",
+        "pay_date": "2015-04-27",
+        "amount": 645.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 12,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.133Z",
+        "pay_date": "2013-04-27",
+        "amount": 490.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 13,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.147Z",
+        "pay_date": "2014-04-27",
+        "amount": 237.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 14,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.163Z",
+        "pay_date": "2017-04-26",
+        "amount": 102.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 15,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.180Z",
+        "pay_date": "2017-04-26",
+        "amount": 567.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 16,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.194Z",
+        "pay_date": "2010-04-28",
+        "amount": 479.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 17,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.212Z",
+        "pay_date": "2012-04-27",
+        "amount": 851.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 18,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.228Z",
+        "pay_date": "2016-04-26",
+        "amount": 361.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 19,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.243Z",
+        "pay_date": "2016-04-26",
+        "amount": 242.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 20,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.261Z",
+        "pay_date": "2017-04-26",
+        "amount": 809.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 21,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.277Z",
+        "pay_date": "2014-04-27",
+        "amount": 538.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 22,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.291Z",
+        "pay_date": "2017-04-26",
+        "amount": 642.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 23,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.309Z",
+        "pay_date": "2013-04-27",
+        "amount": 872.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 24,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.324Z",
+        "pay_date": "2016-04-26",
+        "amount": 266.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 25,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.338Z",
+        "pay_date": "2010-04-28",
+        "amount": 451.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 26,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.355Z",
+        "pay_date": "2008-04-28",
+        "amount": 503.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 27,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.370Z",
+        "pay_date": "2013-04-27",
+        "amount": 386.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 28,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.385Z",
+        "pay_date": "2011-04-28",
+        "amount": 390.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 29,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.401Z",
+        "pay_date": "2008-04-28",
+        "amount": 163.0
+    }
+},
+{
+    "model": "royalty.royalty",
+    "pk": 30,
+    "fields": {
+        "created_at": "2018-04-26T13:27:53.417Z",
+        "pay_date": "2017-04-26",
+        "amount": 486.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 1,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Melissa Gardner",
+        "royalty": 1,
+        "percentage": 0.2,
+        "amount": 78.80000000000001
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 2,
+    "fields": {
+        "payee_type": "author",
+        "name": "Laura Hernandez",
+        "royalty": 1,
+        "percentage": 0.3,
+        "amount": 118.19999999999999
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 3,
+    "fields": {
+        "payee_type": "company",
+        "name": "Laura Hernandez",
+        "royalty": 1,
+        "percentage": 0.5,
+        "amount": 197.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 4,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Megan Casey",
+        "royalty": 2,
+        "percentage": 0.2,
+        "amount": 35.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 5,
+    "fields": {
+        "payee_type": "author",
+        "name": "Tina Cervantes",
+        "royalty": 2,
+        "percentage": 0.3,
+        "amount": 52.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 6,
+    "fields": {
+        "payee_type": "company",
+        "name": "Tina Cervantes",
+        "royalty": 2,
+        "percentage": 0.5,
+        "amount": 87.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 7,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Nancy Bailey",
+        "royalty": 3,
+        "percentage": 0.2,
+        "amount": 143.20000000000002
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 8,
+    "fields": {
+        "payee_type": "author",
+        "name": "Tina Cervantes",
+        "royalty": 3,
+        "percentage": 0.3,
+        "amount": 214.79999999999998
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 9,
+    "fields": {
+        "payee_type": "company",
+        "name": "Tina Cervantes",
+        "royalty": 3,
+        "percentage": 0.5,
+        "amount": 358.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 10,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Brianna Brown",
+        "royalty": 4,
+        "percentage": 0.2,
+        "amount": 35.6
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 11,
+    "fields": {
+        "payee_type": "author",
+        "name": "Rachel Mendoza",
+        "royalty": 4,
+        "percentage": 0.3,
+        "amount": 53.4
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 12,
+    "fields": {
+        "payee_type": "company",
+        "name": "Rachel Mendoza",
+        "royalty": 4,
+        "percentage": 0.5,
+        "amount": 89.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 13,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Laura Hernandez",
+        "royalty": 5,
+        "percentage": 0.2,
+        "amount": 48.400000000000006
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 14,
+    "fields": {
+        "payee_type": "author",
+        "name": "Laura Hernandez",
+        "royalty": 5,
+        "percentage": 0.3,
+        "amount": 72.6
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 15,
+    "fields": {
+        "payee_type": "company",
+        "name": "Laura Hernandez",
+        "royalty": 5,
+        "percentage": 0.5,
+        "amount": 121.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 16,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Rhonda Cox",
+        "royalty": 6,
+        "percentage": 0.2,
+        "amount": 65.8
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 17,
+    "fields": {
+        "payee_type": "author",
+        "name": "Megan Casey",
+        "royalty": 6,
+        "percentage": 0.3,
+        "amount": 98.7
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 18,
+    "fields": {
+        "payee_type": "company",
+        "name": "Megan Casey",
+        "royalty": 6,
+        "percentage": 0.5,
+        "amount": 164.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 19,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Nancy Bailey",
+        "royalty": 7,
+        "percentage": 0.2,
+        "amount": 140.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 20,
+    "fields": {
+        "payee_type": "author",
+        "name": "Kari Strong",
+        "royalty": 7,
+        "percentage": 0.3,
+        "amount": 210.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 21,
+    "fields": {
+        "payee_type": "company",
+        "name": "Kari Strong",
+        "royalty": 7,
+        "percentage": 0.5,
+        "amount": 350.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 22,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Rachel Mendoza",
+        "royalty": 8,
+        "percentage": 0.2,
+        "amount": 129.8
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 23,
+    "fields": {
+        "payee_type": "author",
+        "name": "Tina Cervantes",
+        "royalty": 8,
+        "percentage": 0.3,
+        "amount": 194.7
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 24,
+    "fields": {
+        "payee_type": "company",
+        "name": "Tina Cervantes",
+        "royalty": 8,
+        "percentage": 0.5,
+        "amount": 324.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 25,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Brianna Brown",
+        "royalty": 9,
+        "percentage": 0.2,
+        "amount": 138.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 26,
+    "fields": {
+        "payee_type": "author",
+        "name": "Rachel Mendoza",
+        "royalty": 9,
+        "percentage": 0.3,
+        "amount": 207.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 27,
+    "fields": {
+        "payee_type": "company",
+        "name": "Rachel Mendoza",
+        "royalty": 9,
+        "percentage": 0.5,
+        "amount": 345.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 28,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Tina Cervantes",
+        "royalty": 10,
+        "percentage": 0.2,
+        "amount": 45.800000000000004
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 29,
+    "fields": {
+        "payee_type": "author",
+        "name": "Kari Strong",
+        "royalty": 10,
+        "percentage": 0.3,
+        "amount": 68.7
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 30,
+    "fields": {
+        "payee_type": "company",
+        "name": "Kari Strong",
+        "royalty": 10,
+        "percentage": 0.5,
+        "amount": 114.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 31,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Megan Casey",
+        "royalty": 11,
+        "percentage": 0.2,
+        "amount": 129.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 32,
+    "fields": {
+        "payee_type": "author",
+        "name": "Megan Casey",
+        "royalty": 11,
+        "percentage": 0.3,
+        "amount": 193.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 33,
+    "fields": {
+        "payee_type": "company",
+        "name": "Megan Casey",
+        "royalty": 11,
+        "percentage": 0.5,
+        "amount": 322.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 34,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Brianna Brown",
+        "royalty": 12,
+        "percentage": 0.2,
+        "amount": 98.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 35,
+    "fields": {
+        "payee_type": "author",
+        "name": "Nancy Bailey",
+        "royalty": 12,
+        "percentage": 0.3,
+        "amount": 147.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 36,
+    "fields": {
+        "payee_type": "company",
+        "name": "Nancy Bailey",
+        "royalty": 12,
+        "percentage": 0.5,
+        "amount": 245.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 37,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Kari Strong",
+        "royalty": 13,
+        "percentage": 0.2,
+        "amount": 47.400000000000006
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 38,
+    "fields": {
+        "payee_type": "author",
+        "name": "Jennifer Cunningham",
+        "royalty": 13,
+        "percentage": 0.3,
+        "amount": 71.1
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 39,
+    "fields": {
+        "payee_type": "company",
+        "name": "Jennifer Cunningham",
+        "royalty": 13,
+        "percentage": 0.5,
+        "amount": 118.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 40,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Megan Casey",
+        "royalty": 14,
+        "percentage": 0.2,
+        "amount": 20.400000000000002
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 41,
+    "fields": {
+        "payee_type": "author",
+        "name": "Rachel Mendoza",
+        "royalty": 14,
+        "percentage": 0.3,
+        "amount": 30.599999999999998
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 42,
+    "fields": {
+        "payee_type": "company",
+        "name": "Rachel Mendoza",
+        "royalty": 14,
+        "percentage": 0.5,
+        "amount": 51.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 43,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Kari Strong",
+        "royalty": 15,
+        "percentage": 0.2,
+        "amount": 113.4
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 44,
+    "fields": {
+        "payee_type": "author",
+        "name": "Megan Casey",
+        "royalty": 15,
+        "percentage": 0.3,
+        "amount": 170.1
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 45,
+    "fields": {
+        "payee_type": "company",
+        "name": "Megan Casey",
+        "royalty": 15,
+        "percentage": 0.5,
+        "amount": 283.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 46,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Rachel Mendoza",
+        "royalty": 16,
+        "percentage": 0.2,
+        "amount": 95.80000000000001
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 47,
+    "fields": {
+        "payee_type": "author",
+        "name": "Nancy Bailey",
+        "royalty": 16,
+        "percentage": 0.3,
+        "amount": 143.7
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 48,
+    "fields": {
+        "payee_type": "company",
+        "name": "Nancy Bailey",
+        "royalty": 16,
+        "percentage": 0.5,
+        "amount": 239.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 49,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Nancy Bailey",
+        "royalty": 17,
+        "percentage": 0.2,
+        "amount": 170.20000000000002
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 50,
+    "fields": {
+        "payee_type": "author",
+        "name": "Tina Cervantes",
+        "royalty": 17,
+        "percentage": 0.3,
+        "amount": 255.29999999999998
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 51,
+    "fields": {
+        "payee_type": "company",
+        "name": "Tina Cervantes",
+        "royalty": 17,
+        "percentage": 0.5,
+        "amount": 425.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 52,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Kari Strong",
+        "royalty": 18,
+        "percentage": 0.2,
+        "amount": 72.2
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 53,
+    "fields": {
+        "payee_type": "author",
+        "name": "Rachel Mendoza",
+        "royalty": 18,
+        "percentage": 0.3,
+        "amount": 108.3
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 54,
+    "fields": {
+        "payee_type": "company",
+        "name": "Rachel Mendoza",
+        "royalty": 18,
+        "percentage": 0.5,
+        "amount": 180.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 55,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Megan Casey",
+        "royalty": 19,
+        "percentage": 0.2,
+        "amount": 48.400000000000006
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 56,
+    "fields": {
+        "payee_type": "author",
+        "name": "Rhonda Cox",
+        "royalty": 19,
+        "percentage": 0.3,
+        "amount": 72.6
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 57,
+    "fields": {
+        "payee_type": "company",
+        "name": "Rhonda Cox",
+        "royalty": 19,
+        "percentage": 0.5,
+        "amount": 121.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 58,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Megan Casey",
+        "royalty": 20,
+        "percentage": 0.2,
+        "amount": 161.8
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 59,
+    "fields": {
+        "payee_type": "author",
+        "name": "Kari Strong",
+        "royalty": 20,
+        "percentage": 0.3,
+        "amount": 242.7
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 60,
+    "fields": {
+        "payee_type": "company",
+        "name": "Kari Strong",
+        "royalty": 20,
+        "percentage": 0.5,
+        "amount": 404.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 61,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Kari Strong",
+        "royalty": 21,
+        "percentage": 0.2,
+        "amount": 107.60000000000001
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 62,
+    "fields": {
+        "payee_type": "author",
+        "name": "Rhonda Cox",
+        "royalty": 21,
+        "percentage": 0.3,
+        "amount": 161.4
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 63,
+    "fields": {
+        "payee_type": "company",
+        "name": "Rhonda Cox",
+        "royalty": 21,
+        "percentage": 0.5,
+        "amount": 269.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 64,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Kari Strong",
+        "royalty": 22,
+        "percentage": 0.2,
+        "amount": 128.4
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 65,
+    "fields": {
+        "payee_type": "author",
+        "name": "Rachel Mendoza",
+        "royalty": 22,
+        "percentage": 0.3,
+        "amount": 192.6
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 66,
+    "fields": {
+        "payee_type": "company",
+        "name": "Rachel Mendoza",
+        "royalty": 22,
+        "percentage": 0.5,
+        "amount": 321.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 67,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Kari Strong",
+        "royalty": 23,
+        "percentage": 0.2,
+        "amount": 174.4
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 68,
+    "fields": {
+        "payee_type": "author",
+        "name": "Kari Strong",
+        "royalty": 23,
+        "percentage": 0.3,
+        "amount": 261.59999999999997
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 69,
+    "fields": {
+        "payee_type": "company",
+        "name": "Kari Strong",
+        "royalty": 23,
+        "percentage": 0.5,
+        "amount": 436.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 70,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Jennifer Cunningham",
+        "royalty": 24,
+        "percentage": 0.2,
+        "amount": 53.2
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 71,
+    "fields": {
+        "payee_type": "author",
+        "name": "Melissa Gardner",
+        "royalty": 24,
+        "percentage": 0.3,
+        "amount": 79.8
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 72,
+    "fields": {
+        "payee_type": "company",
+        "name": "Melissa Gardner",
+        "royalty": 24,
+        "percentage": 0.5,
+        "amount": 133.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 73,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Kari Strong",
+        "royalty": 25,
+        "percentage": 0.2,
+        "amount": 90.2
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 74,
+    "fields": {
+        "payee_type": "author",
+        "name": "Jennifer Cunningham",
+        "royalty": 25,
+        "percentage": 0.3,
+        "amount": 135.29999999999998
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 75,
+    "fields": {
+        "payee_type": "company",
+        "name": "Jennifer Cunningham",
+        "royalty": 25,
+        "percentage": 0.5,
+        "amount": 225.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 76,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Megan Casey",
+        "royalty": 26,
+        "percentage": 0.2,
+        "amount": 100.60000000000001
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 77,
+    "fields": {
+        "payee_type": "author",
+        "name": "Laura Hernandez",
+        "royalty": 26,
+        "percentage": 0.3,
+        "amount": 150.9
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 78,
+    "fields": {
+        "payee_type": "company",
+        "name": "Laura Hernandez",
+        "royalty": 26,
+        "percentage": 0.5,
+        "amount": 251.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 79,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Rachel Mendoza",
+        "royalty": 27,
+        "percentage": 0.2,
+        "amount": 77.2
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 80,
+    "fields": {
+        "payee_type": "author",
+        "name": "Kari Strong",
+        "royalty": 27,
+        "percentage": 0.3,
+        "amount": 115.8
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 81,
+    "fields": {
+        "payee_type": "company",
+        "name": "Kari Strong",
+        "royalty": 27,
+        "percentage": 0.5,
+        "amount": 193.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 82,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Rachel Mendoza",
+        "royalty": 28,
+        "percentage": 0.2,
+        "amount": 78.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 83,
+    "fields": {
+        "payee_type": "author",
+        "name": "Brianna Brown",
+        "royalty": 28,
+        "percentage": 0.3,
+        "amount": 117.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 84,
+    "fields": {
+        "payee_type": "company",
+        "name": "Brianna Brown",
+        "royalty": 28,
+        "percentage": 0.5,
+        "amount": 195.0
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 85,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Brianna Brown",
+        "royalty": 29,
+        "percentage": 0.2,
+        "amount": 32.6
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 86,
+    "fields": {
+        "payee_type": "author",
+        "name": "Laura Hernandez",
+        "royalty": 29,
+        "percentage": 0.3,
+        "amount": 48.9
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 87,
+    "fields": {
+        "payee_type": "company",
+        "name": "Laura Hernandez",
+        "royalty": 29,
+        "percentage": 0.5,
+        "amount": 81.5
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 88,
+    "fields": {
+        "payee_type": "singer",
+        "name": "Rhonda Cox",
+        "royalty": 30,
+        "percentage": 0.2,
+        "amount": 97.2
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 89,
+    "fields": {
+        "payee_type": "author",
+        "name": "Rhonda Cox",
+        "royalty": 30,
+        "percentage": 0.3,
+        "amount": 145.79999999999998
+    }
+},
+{
+    "model": "payees.payee",
+    "pk": 90,
+    "fields": {
+        "payee_type": "company",
+        "name": "Rhonda Cox",
+        "royalty": 30,
+        "percentage": 0.5,
+        "amount": 243.0
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 1,
+    "fields": {
+        "title": "Reach throw once physical many other.",
+        "author": "Laura Hernandez",
+        "singer": "Melissa Gardner",
+        "play_time": "2018-01-16T10:49:20Z",
+        "channel": 2,
+        "royalty": 1
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 2,
+    "fields": {
+        "title": "With every leg clear leader.",
+        "author": "Tina Cervantes",
+        "singer": "Megan Casey",
+        "play_time": "2008-08-26T23:09:42Z",
+        "channel": 1,
+        "royalty": 2
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 3,
+    "fields": {
+        "title": "Much market such treat.",
+        "author": "Tina Cervantes",
+        "singer": "Nancy Bailey",
+        "play_time": "2014-11-08T12:49:44Z",
+        "channel": 3,
+        "royalty": 3
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 4,
+    "fields": {
+        "title": "Thought among chair look successful partner off.",
+        "author": "Rachel Mendoza",
+        "singer": "Brianna Brown",
+        "play_time": "2018-04-09T10:39:27Z",
+        "channel": 2,
+        "royalty": 4
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 5,
+    "fields": {
+        "title": "Skin these doctor most foot town can.",
+        "author": "Laura Hernandez",
+        "singer": "Laura Hernandez",
+        "play_time": "2010-08-20T16:10:54Z",
+        "channel": 1,
+        "royalty": 5
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 6,
+    "fields": {
+        "title": "Majority vote term shake few.",
+        "author": "Megan Casey",
+        "singer": "Rhonda Cox",
+        "play_time": "2013-02-16T11:31:38Z",
+        "channel": 2,
+        "royalty": 6
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 7,
+    "fields": {
+        "title": "Help people computer such.",
+        "author": "Kari Strong",
+        "singer": "Nancy Bailey",
+        "play_time": "2010-10-13T05:58:07Z",
+        "channel": 1,
+        "royalty": 7
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 8,
+    "fields": {
+        "title": "Also rock left position.",
+        "author": "Tina Cervantes",
+        "singer": "Rachel Mendoza",
+        "play_time": "2014-07-10T12:11:01Z",
+        "channel": 2,
+        "royalty": 8
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 9,
+    "fields": {
+        "title": "Add else main discover know seat not.",
+        "author": "Rachel Mendoza",
+        "singer": "Brianna Brown",
+        "play_time": "2012-11-17T19:35:51Z",
+        "channel": 2,
+        "royalty": 9
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 10,
+    "fields": {
+        "title": "Scientist yourself series goal about provide.",
+        "author": "Kari Strong",
+        "singer": "Tina Cervantes",
+        "play_time": "2010-11-23T22:48:06Z",
+        "channel": 2,
+        "royalty": 10
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 11,
+    "fields": {
+        "title": "Size sort outside whether.",
+        "author": "Megan Casey",
+        "singer": "Megan Casey",
+        "play_time": "2016-08-26T21:13:19Z",
+        "channel": 3,
+        "royalty": 11
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 12,
+    "fields": {
+        "title": "Thought among chair look successful partner off.",
+        "author": "Nancy Bailey",
+        "singer": "Brianna Brown",
+        "play_time": "2014-12-06T11:28:26Z",
+        "channel": 2,
+        "royalty": 12
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 13,
+    "fields": {
+        "title": "Share source box feeling total sort scientist newspaper.",
+        "author": "Jennifer Cunningham",
+        "singer": "Kari Strong",
+        "play_time": "2010-02-25T07:11:08Z",
+        "channel": 1,
+        "royalty": 13
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 14,
+    "fields": {
+        "title": "Argue develop crime weight over rise.",
+        "author": "Rachel Mendoza",
+        "singer": "Megan Casey",
+        "play_time": "2014-10-17T16:40:32Z",
+        "channel": 3,
+        "royalty": 14
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 15,
+    "fields": {
+        "title": "Final candidate culture plan.",
+        "author": "Megan Casey",
+        "singer": "Kari Strong",
+        "play_time": "2015-05-21T23:39:14Z",
+        "channel": 2,
+        "royalty": 15
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 16,
+    "fields": {
+        "title": "Now whatever arm upon lay accept.",
+        "author": "Nancy Bailey",
+        "singer": "Rachel Mendoza",
+        "play_time": "2015-11-01T00:44:50Z",
+        "channel": 3,
+        "royalty": 16
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 17,
+    "fields": {
+        "title": "Director article rule anything quite.",
+        "author": "Tina Cervantes",
+        "singer": "Nancy Bailey",
+        "play_time": "2010-11-27T06:59:48Z",
+        "channel": 3,
+        "royalty": 17
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 18,
+    "fields": {
+        "title": "Spring current talk generation race exactly wrong.",
+        "author": "Rachel Mendoza",
+        "singer": "Kari Strong",
+        "play_time": "2016-01-20T04:17:40Z",
+        "channel": 3,
+        "royalty": 18
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 19,
+    "fields": {
+        "title": "With every leg clear leader.",
+        "author": "Rhonda Cox",
+        "singer": "Megan Casey",
+        "play_time": "2010-08-04T22:11:49Z",
+        "channel": 2,
+        "royalty": 19
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 20,
+    "fields": {
+        "title": "With every leg clear leader.",
+        "author": "Kari Strong",
+        "singer": "Megan Casey",
+        "play_time": "2013-01-27T17:16:07Z",
+        "channel": 3,
+        "royalty": 20
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 21,
+    "fields": {
+        "title": "Outside film my lose.",
+        "author": "Rhonda Cox",
+        "singer": "Kari Strong",
+        "play_time": "2014-03-04T10:39:58Z",
+        "channel": 3,
+        "royalty": 21
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 22,
+    "fields": {
+        "title": "Among music dog.",
+        "author": "Rachel Mendoza",
+        "singer": "Kari Strong",
+        "play_time": "2011-08-14T19:29:29Z",
+        "channel": 2,
+        "royalty": 22
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 23,
+    "fields": {
+        "title": "Many recognize defense source dream four other.",
+        "author": "Kari Strong",
+        "singer": "Kari Strong",
+        "play_time": "2010-03-28T23:00:28Z",
+        "channel": 1,
+        "royalty": 23
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 24,
+    "fields": {
+        "title": "Help people computer such.",
+        "author": "Melissa Gardner",
+        "singer": "Jennifer Cunningham",
+        "play_time": "2017-10-29T13:13:44Z",
+        "channel": 3,
+        "royalty": 24
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 25,
+    "fields": {
+        "title": "Main suddenly reality single.",
+        "author": "Jennifer Cunningham",
+        "singer": "Kari Strong",
+        "play_time": "2010-01-24T05:38:29Z",
+        "channel": 3,
+        "royalty": 25
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 26,
+    "fields": {
+        "title": "Try view hot employee hair.",
+        "author": "Laura Hernandez",
+        "singer": "Megan Casey",
+        "play_time": "2012-07-10T02:18:22Z",
+        "channel": 2,
+        "royalty": 26
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 27,
+    "fields": {
+        "title": "Total lay training age whom current late.",
+        "author": "Kari Strong",
+        "singer": "Rachel Mendoza",
+        "play_time": "2016-08-26T21:44:17Z",
+        "channel": 2,
+        "royalty": 27
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 28,
+    "fields": {
+        "title": "With every leg clear leader.",
+        "author": "Brianna Brown",
+        "singer": "Rachel Mendoza",
+        "play_time": "2012-12-28T02:48:01Z",
+        "channel": 1,
+        "royalty": 28
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 29,
+    "fields": {
+        "title": "Reach throw once physical many other.",
+        "author": "Laura Hernandez",
+        "singer": "Brianna Brown",
+        "play_time": "2011-02-08T14:21:46Z",
+        "channel": 1,
+        "royalty": 29
+    }
+},
+{
+    "model": "songs.song",
+    "pk": 30,
+    "fields": {
+        "title": "For now able little force.",
+        "author": "Rhonda Cox",
+        "singer": "Rhonda Cox",
+        "play_time": "2009-09-27T16:13:05Z",
+        "channel": 1,
+        "royalty": 30
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 1,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 1,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 1,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 2,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 2,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 2,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 3,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 3,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 3,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add redirect",
+        "content_type": 5,
+        "codename": "add_redirect"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change redirect",
+        "content_type": 5,
+        "codename": "change_redirect"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete redirect",
+        "content_type": 5,
+        "codename": "delete_redirect"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can add site",
+        "content_type": 7,
+        "codename": "add_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can change site",
+        "content_type": 7,
+        "codename": "change_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can delete site",
+        "content_type": 7,
+        "codename": "delete_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can add Setting",
+        "content_type": 8,
+        "codename": "add_setting"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can change Setting",
+        "content_type": 8,
+        "codename": "change_setting"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can delete Setting",
+        "content_type": 8,
+        "codename": "delete_setting"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Site permission",
+        "content_type": 9,
+        "codename": "add_sitepermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Site permission",
+        "content_type": 9,
+        "codename": "change_sitepermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Site permission",
+        "content_type": 9,
+        "codename": "delete_sitepermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can add assigned keyword",
+        "content_type": 10,
+        "codename": "add_assignedkeyword"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can change assigned keyword",
+        "content_type": 10,
+        "codename": "change_assignedkeyword"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can delete assigned keyword",
+        "content_type": 10,
+        "codename": "delete_assignedkeyword"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can add Rating",
+        "content_type": 11,
+        "codename": "add_rating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can change Rating",
+        "content_type": 11,
+        "codename": "change_rating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can delete Rating",
+        "content_type": 11,
+        "codename": "delete_rating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can add Keyword",
+        "content_type": 12,
+        "codename": "add_keyword"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can change Keyword",
+        "content_type": 12,
+        "codename": "change_keyword"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can delete Keyword",
+        "content_type": 12,
+        "codename": "delete_keyword"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Comment",
+        "content_type": 13,
+        "codename": "add_threadedcomment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Comment",
+        "content_type": 13,
+        "codename": "change_threadedcomment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Comment",
+        "content_type": 13,
+        "codename": "delete_threadedcomment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can add Page",
+        "content_type": 14,
+        "codename": "add_page"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can change Page",
+        "content_type": 14,
+        "codename": "change_page"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can delete Page",
+        "content_type": 14,
+        "codename": "delete_page"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can add Rich text page",
+        "content_type": 15,
+        "codename": "add_richtextpage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can change Rich text page",
+        "content_type": 15,
+        "codename": "change_richtextpage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can delete Rich text page",
+        "content_type": 15,
+        "codename": "delete_richtextpage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can add Link",
+        "content_type": 16,
+        "codename": "add_link"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can change Link",
+        "content_type": 16,
+        "codename": "change_link"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can delete Link",
+        "content_type": 16,
+        "codename": "delete_link"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add channel",
+        "content_type": 17,
+        "codename": "add_channel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change channel",
+        "content_type": 17,
+        "codename": "change_channel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete channel",
+        "content_type": 17,
+        "codename": "delete_channel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can add Royalty",
+        "content_type": 18,
+        "codename": "add_royalty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can change Royalty",
+        "content_type": 18,
+        "codename": "change_royalty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can delete Royalty",
+        "content_type": 18,
+        "codename": "delete_royalty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can add Payee",
+        "content_type": 19,
+        "codename": "add_payee"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can change Payee",
+        "content_type": 19,
+        "codename": "change_payee"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can delete Payee",
+        "content_type": 19,
+        "codename": "delete_payee"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can add Song",
+        "content_type": 20,
+        "codename": "add_song"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can change Song",
+        "content_type": 20,
+        "codename": "change_song"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can delete Song",
+        "content_type": 20,
+        "codename": "delete_song"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 21,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 21,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 21,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can add comment flag",
+        "content_type": 22,
+        "codename": "add_commentflag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can change comment flag",
+        "content_type": 22,
+        "codename": "change_commentflag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can delete comment flag",
+        "content_type": 22,
+        "codename": "delete_commentflag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can add comment",
+        "content_type": 23,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can change comment",
+        "content_type": 23,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": 23,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can moderate comments",
+        "content_type": 23,
+        "codename": "can_moderate"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$ll2BcLM0q6Qs$e7oEEq7ZnbFy21P06cY/XimhcfBTNy6R1bTl6LrX/l8=",
+        "last_login": "2018-04-26T13:27:04.123Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@google.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-04-26T13:26:53.105Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2018-04-26T13:27:15.979Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Youtube",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2018-04-26T13:27:21.608Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "2",
+        "object_repr": "Spotify",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2018-04-26T13:27:28.536Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "3",
+        "object_repr": "Tencent Music",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2018-04-26T13:27:34.882Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "FM 97.5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
