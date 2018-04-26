@@ -11,6 +11,7 @@ from mezzanine.conf import settings
 from royalty.views import RoyaltyListView
 from songs.views import SongListView
 from payees.views import PayeeListView
+from royalty_management_system.views import IndexView
 
 # Uncomment to use blog as home page. See also urlpatterns section below.
 # from mezzanine.blog import views as blog_views
@@ -43,7 +44,8 @@ urlpatterns += [
     # one homepage pattern, so if you use a different one, comment this
     # one out.
 
-    url("^$", direct_to_template, {"template": "index.html"}, name="home"),
+    url("^$", IndexView.as_view(), name='home'),
+    #url("^$", direct_to_template, {"template": "index.html"}, name="home"),
     url(r'royalty/$', RoyaltyListView.as_view(), name='royalty_list'),
     url(r'payees/$', PayeeListView.as_view(), name='payee_list'),
     url(r'songs/$', SongListView.as_view(), name='song_list'),

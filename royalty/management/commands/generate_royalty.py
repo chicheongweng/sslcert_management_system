@@ -17,7 +17,7 @@ from songs.models import Song
 from faker import Faker
 from channels.models import Channel
 
-TOTAL_SONGS = 10
+TOTAL_SONGS = 30
 TOTAL_ROYALTY = TOTAL_SONGS
 
 names = []
