@@ -62,10 +62,12 @@
     {% if settings.SITE_TAGLINE %}<p class="navbar-text visible-lg">{{ settings.SITE_TAGLINE }}</p>{% endif %}
     {% endblock%}
 </div>
+<!--
 <div class="navbar-collapse collapse">
     {% block navbar_search_form %}{% search_form "all" %}{% endblock %}
     {% block navbar_dropdown_menu %}{% page_menu "pages/menus/dropdown.html" %}{% endblock%}
 </div>
+-->
 </div>
 </div>
 
@@ -98,9 +100,11 @@
 <div class="row">
 
 <div class="col-md-2 left">
+    <!--
     {% block left_panel %}
     <div class="panel panel-default tree">{% page_menu "pages/menus/tree.html" %}</div>
     {% endblock %}
+    -->
 </div>
 
 <div class="col-md-8 middle">
@@ -110,8 +114,11 @@
 <div class="col-md-2 right">
     {% nevercache %}
     {% include "includes/language_selector.html" %}
+    <!--
     {% include "includes/user_panel.html" %}
+    -->
     {% endnevercache %}
+    <!--
     <div class="panel panel-default">
     <div class="panel-body">
     {% block right_panel %}
@@ -121,6 +128,7 @@
     {% endblock %}
     </div>
     </div>
+    -->
 </div>
 
 </div>
@@ -129,7 +137,7 @@
 <footer>
 <div class="container">
 {% page_menu "pages/menus/footer.html" %}
-
+<!--
 <div class="row">
 <p class="site-info text-center">
     {% trans "Powered by" %}
@@ -141,6 +149,7 @@
     {% trans "Theme by" %} <a target="_blank" href="http://getbootstrap.com">Bootstrap</a>
 </p>
 </div>
+-->
 </div>
 </footer>
 
