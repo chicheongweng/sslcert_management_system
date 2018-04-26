@@ -251,6 +251,7 @@ INSTALLED_APPS = (
     "django.contrib.sites",
     "django.contrib.sitemaps",
     "django.contrib.staticfiles",
+    "django.contrib.humanize",
     "mezzanine.boot",
     "mezzanine.conf",
     "mezzanine.core",
@@ -266,6 +267,7 @@ INSTALLED_APPS = (
     "royalty",
     "payees",
     "songs",
+    "django_tables2",
 )
 
 # List of middleware classes to use. Order is important; in the request phase,

@@ -8,6 +8,10 @@ from django.views.i18n import set_language
 from mezzanine.core.views import direct_to_template
 from mezzanine.conf import settings
 
+from royalty.views import RoyaltyListView
+from songs.views import SongListView
+from payees.views import PayeeListView
+
 # Uncomment to use blog as home page. See also urlpatterns section below.
 # from mezzanine.blog import views as blog_views
 
@@ -40,6 +44,9 @@ urlpatterns += [
     # one out.
 
     url("^$", direct_to_template, {"template": "index.html"}, name="home"),
+    url(r'royalty/$', RoyaltyListView.as_view(), name='royalty_list'),
+    url(r'payees/$', PayeeListView.as_view(), name='payee_list'),
+    url(r'songs/$', SongListView.as_view(), name='song_list'),
 
     # HOMEPAGE AS AN EDITABLE PAGE IN THE PAGE TREE
     # ---------------------------------------------
