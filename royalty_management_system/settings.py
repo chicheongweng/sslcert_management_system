@@ -359,7 +359,7 @@ MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
 LOCALE_PATHS = [os.path.join(PROJECT_ROOT, "theme/locale"),]
 DJANGO_TABLES2_TEMPLATE = 'django_tables2/bootstrap.html'
 
-ROYALTY_PERCENTAGE = {'Singer': 0.2, 'Author': 0.3, 'Company': 0.5}
+ROYALTY_PERCENTAGE = {'singer': 0.2, 'author': 0.3, 'company': 0.5}
 
 PAYEE_TYPES = (
     ('singer', 'Singer'),

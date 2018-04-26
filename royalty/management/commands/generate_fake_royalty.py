@@ -13,9 +13,12 @@ from royalty.models import Royalty
 from django.utils import timezone
 from django.conf import settings
 from payees.models import Payee
+from songs.models import Song
 from faker import Faker
+from channels.models import Channel
 
-TOTAL_ROYALTY = 10
+TOTAL_SONGS = 10
+TOTAL_ROYALTY = TOTAL_SONGS
 
 names = []
 titles = []
@@ -27,7 +30,7 @@ for i in range(0,10):
     names.append(Faker(loc).first_name() + ' ' + Faker(loc).last_name())
 
 for i in range(0,50):
-    titles.append(Faker(loc).words())
+    titles.append(Faker(loc).sentence())
 
 def get_random_first_name(loc='en_US'):
     return Faker(loc).first_name()
@@ -60,8 +63,25 @@ def get_random_payee_type():
     payee_types = [x[0] for x in settings.PAYEE_TYPES]
     return random.choice(payee_types)
 
-print names
-print titles
+def get_random_channel():
+    number_of_channels = Channel.objects.count() - 1
+    random_index = int(random.random()*number_of_channels)+1
+    random_channel = Channel.objects.get(pk = random_index)
+    return random_channel
+
+def create_song():
+    title = random.choice(titles)
+    author = random.choice(names)
+    singer = random.choice(names)
+    play_time = fake.date_time_between(start_date='-10y', end_date='now')
+    channel=get_random_channel()
+    return {
+            'title': title,
+            'author': author,
+            'singer': singer,
+            'play_time': play_time,
+            'channel': channel
+            }
 
 class Command(BaseCommand):
 
@@ -69,24 +89,57 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         #self.stdout.write("TOTAL_USERS %i" % TOTAL_USERS)
-        for _ in range(0, TOTAL_ROYALTY):
+        for _ in range(0, TOTAL_SONGS):
+
+            s = create_song()
+
+            pay_date = get_random_date()
+            amount=get_random_amount()
+
             royalty = Royalty.objects.create(
-                pay_date=get_random_date(),
-                amount=get_random_amount()
+                pay_date=pay_date,
+                amount=amount
             )
             royalty.save()
 
-            for payee_type in settings.PAYEE_TYPES:
-                name = random.choice(names)
-                print "payee_type[1] ", payee_type[1]
-                percentage = settings.ROYALTY_PERCENTAGE[payee_type[1]]
-                print "percentage ", settings.ROYALTY_PERCENTAGE[payee_type[1]]
-                payee = Payee.objects.create(
-                    name = name,
-                    royalty = royalty,
-                    payee_type = payee_type[0],
-                    percentage = percentage
-                )
-                payee.save()
+            song = Song.objects.create(
+                title = s['title'],
+                singer = s['singer'],
+                author = s['author'],
+                play_time = s['play_time'],
+                channel = s['channel'],
+                royalty = royalty
+            )
+            song.save()
+
+            percentage = settings.ROYALTY_PERCENTAGE['singer']
+            singer = Payee.objects.create(
+                name = song.singer,
+                royalty = royalty,
+                payee_type = 'singer',
+                percentage = percentage,
+                amount = royalty.amount * percentage
+            )
+            singer.save()
+
+            percentage = settings.ROYALTY_PERCENTAGE['author']
+            author = Payee.objects.create(
+                name = song.author,
+                royalty = royalty,
+                payee_type = 'author',
+                percentage = percentage,
+                amount = royalty.amount * percentage
+            )
+            author.save()
+
+            percentage = settings.ROYALTY_PERCENTAGE['company']
+            company = Payee.objects.create(
+                name = song.author,
+                royalty = royalty,
+                payee_type = 'company',
+                percentage = percentage,
+                amount = royalty.amount * percentage
+            )
+            company.save()
 
 

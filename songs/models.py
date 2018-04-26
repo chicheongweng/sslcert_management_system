@@ -7,7 +7,7 @@ from channels.models import Channel
 from royalty.models import Royalty
 
 class Song(models.Model):
-    title = models.CharField(_('Name'), max_length=256)
+    title = models.CharField(_('Title'), max_length=256)
     author = models.CharField(_('Author'), max_length=256)
     singer = models.CharField(_('Singer'), max_length=256)
     play_time = models.DateTimeField(_('Play Time'))

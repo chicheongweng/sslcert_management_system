@@ -13,6 +13,7 @@ class Payee(models.Model):
     name = models.CharField(_('name'), max_length=256)
     royalty = models.ForeignKey(Royalty, on_delete=models.CASCADE)
     percentage = models.FloatField(_('percentage'), default=0.0)
+    amount = models.FloatField(_('amount'), default=0.0)
 
     def __unicode__(self):
         return '%s, %s, %s' % (self.name, self.payee_type, self.percentage )
