@@ -254,7 +254,6 @@ INSTALLED_APPS = (
     # "mezzanine.accounts",
     "channels",
     "payees",
-    "royalty",
     "songs",
 )
 
