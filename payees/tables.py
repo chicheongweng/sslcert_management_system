@@ -12,5 +12,6 @@ class PayeeTable(tables.Table):
     
     class Meta:
         model = Payee
-        #fields = ['time_stamp', 'order_type', 'symbol', 'price']
+        fields = ['name', 'payee_type', 'percentage', 'amount', 'royalty']
+        sequence = fields
         #sequence = ['time_stamp', 'order_type', 'symbol', 'price']

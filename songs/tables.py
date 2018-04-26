@@ -11,5 +11,5 @@ class SongTable(tables.Table):
     
     class Meta:
         model = Song
-        #fields = ['time_stamp', 'order_type', 'symbol', 'price']
-        #sequence = ['time_stamp', 'order_type', 'symbol', 'price']
+        fields = ['title', 'author', 'singer', 'play_time', 'channel', 'royalty']
+        sequence = fields

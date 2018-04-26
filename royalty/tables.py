@@ -12,5 +12,7 @@ class RoyaltyTable(tables.Table):
     
     class Meta:
         model = Royalty
+        fields = ['id', 'amount', 'pay_date']
+        sequence = ['id', 'amount', 'pay_date']
         #fields = ['time_stamp', 'order_type', 'symbol', 'price']
         #sequence = ['time_stamp', 'order_type', 'symbol', 'price']
