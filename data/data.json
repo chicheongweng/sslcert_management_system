@@ -185,6 +185,14 @@
 },
 {
     "model": "sessions.session",
+    "pk": "36qs71hkhl1pfqca01o96y5p18ny908l",
+    "fields": {
+        "session_data": "YjI4NWMzNGY0NTE5NDZiOWE5ZDE5MDEyM2IzMTRhNDFjZGMyZGM5Yjp7Il9sYW5ndWFnZSI6InpoLWhhbnMiLCJfYXV0aF91c2VyX2hhc2giOiIxZDVmOTI4NjZiNTExZmY4YjEyMWEwYjlmZTM1YjVkMmQwNDFlNjJiIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJtZXp6YW5pbmUuY29yZS5hdXRoX2JhY2tlbmRzLk1lenphbmluZUJhY2tlbmQifQ==",
+        "expire_date": "2018-05-10T14:03:47.322Z"
+    }
+},
+{
+    "model": "sessions.session",
     "pk": "9cr6t4ivjgx9wr0iy7wgbnkc23o0ixyj",
     "fields": {
         "session_data": "NmFjYmM3MGJhMjM4ZDUxNjZlOTZmODMxZmU2MjhiMDI4ZTkxY2RkMDp7Il9hdXRoX3VzZXJfaGFzaCI6IjFkNWY5Mjg2NmI1MTFmZjhiMTIxYTBiOWZlMzViNWQyZDA0MWU2MmIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJtZXp6YW5pbmUuY29yZS5hdXRoX2JhY2tlbmRzLk1lenphbmluZUJhY2tlbmQiLCJfYXV0aF91c2VyX2lkIjoiMSJ9",
@@ -197,6 +205,246 @@
     "fields": {
         "domain": "example.com",
         "name": "example.com"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 1,
+    "fields": {
+        "site": 1,
+        "name": "GOOGLE_ANALYTICS_ID",
+        "value": "",
+        "value_en": "",
+        "value_zh_hans": "",
+        "value_zh_hant": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 2,
+    "fields": {
+        "site": 1,
+        "name": "ADMIN_MENU_COLLAPSED",
+        "value": "False",
+        "value_en": "False",
+        "value_zh_hans": "False",
+        "value_zh_hant": "False"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 3,
+    "fields": {
+        "site": 1,
+        "name": "SEARCH_PER_PAGE",
+        "value": "10",
+        "value_en": "10",
+        "value_zh_hans": "10",
+        "value_zh_hant": "10"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 4,
+    "fields": {
+        "site": 1,
+        "name": "SITE_TITLE",
+        "value": "Royalty Management System",
+        "value_en": "Royalty Management System",
+        "value_zh_hans": "\u7248\u6743\u8d39\u7ba1\u7406\u7cfb\u7edf",
+        "value_zh_hant": "\u7248\u6b0a\u8cbb\u7ba1\u7406\u7cfb\u7d71"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 5,
+    "fields": {
+        "site": 1,
+        "name": "SITE_TAGLINE",
+        "value": "Royalty Management System",
+        "value_en": "Royalty Management System",
+        "value_zh_hans": "\u7248\u6743\u8d39\u7ba1\u7406\u7cfb\u7edf",
+        "value_zh_hant": "\u7248\u6b0a\u8cbb\u7ba1\u7406\u7cfb\u7d71"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 6,
+    "fields": {
+        "site": 1,
+        "name": "RICHTEXT_FILTER_LEVEL",
+        "value": "1",
+        "value_en": "1",
+        "value_zh_hans": "1",
+        "value_zh_hant": "1"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 7,
+    "fields": {
+        "site": 1,
+        "name": "COMMENTS_UNAPPROVED_VISIBLE",
+        "value": "True",
+        "value_en": "True",
+        "value_zh_hans": "True",
+        "value_zh_hant": "True"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 8,
+    "fields": {
+        "site": 1,
+        "name": "COMMENTS_REMOVED_VISIBLE",
+        "value": "True",
+        "value_en": "True",
+        "value_zh_hans": "True",
+        "value_zh_hant": "True"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 9,
+    "fields": {
+        "site": 1,
+        "name": "BITLY_ACCESS_TOKEN",
+        "value": "",
+        "value_en": "",
+        "value_zh_hans": "",
+        "value_zh_hant": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 10,
+    "fields": {
+        "site": 1,
+        "name": "AKISMET_API_KEY",
+        "value": "",
+        "value_en": "",
+        "value_zh_hans": "",
+        "value_zh_hant": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 11,
+    "fields": {
+        "site": 1,
+        "name": "COMMENTS_DEFAULT_APPROVED",
+        "value": "True",
+        "value_en": "True",
+        "value_zh_hans": "True",
+        "value_zh_hant": "True"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 12,
+    "fields": {
+        "site": 1,
+        "name": "COMMENTS_NOTIFICATION_EMAILS",
+        "value": "",
+        "value_en": "",
+        "value_zh_hans": "",
+        "value_zh_hant": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 13,
+    "fields": {
+        "site": 1,
+        "name": "COMMENTS_DISQUS_API_PUBLIC_KEY",
+        "value": "",
+        "value_en": "",
+        "value_zh_hans": "",
+        "value_zh_hant": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 14,
+    "fields": {
+        "site": 1,
+        "name": "COMMENTS_DISQUS_API_SECRET_KEY",
+        "value": "",
+        "value_en": "",
+        "value_zh_hans": "",
+        "value_zh_hant": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 15,
+    "fields": {
+        "site": 1,
+        "name": "COMMENTS_ACCOUNT_REQUIRED",
+        "value": "False",
+        "value_en": "False",
+        "value_zh_hans": "False",
+        "value_zh_hant": "False"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 16,
+    "fields": {
+        "site": 1,
+        "name": "MAX_PAGING_LINKS",
+        "value": "10",
+        "value_en": "10",
+        "value_zh_hans": "10",
+        "value_zh_hant": "10"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 17,
+    "fields": {
+        "site": 1,
+        "name": "TAG_CLOUD_SIZES",
+        "value": "4",
+        "value_en": "4",
+        "value_zh_hans": "4",
+        "value_zh_hant": "4"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 18,
+    "fields": {
+        "site": 1,
+        "name": "COMMENTS_DISQUS_SHORTNAME",
+        "value": "",
+        "value_en": "",
+        "value_zh_hans": "",
+        "value_zh_hant": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 19,
+    "fields": {
+        "site": 1,
+        "name": "COMMENTS_NUM_LATEST",
+        "value": "5",
+        "value_en": "5",
+        "value_zh_hans": "5",
+        "value_zh_hant": "5"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 20,
+    "fields": {
+        "site": 1,
+        "name": "RATINGS_ACCOUNT_REQUIRED",
+        "value": "False",
+        "value_en": "False",
+        "value_zh_hans": "False",
+        "value_zh_hant": "False"
     }
 },
 {
@@ -2482,7 +2730,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$36000$ll2BcLM0q6Qs$e7oEEq7ZnbFy21P06cY/XimhcfBTNy6R1bTl6LrX/l8=",
-        "last_login": "2018-04-26T13:27:04.123Z",
+        "last_login": "2018-04-26T14:02:31.466Z",
         "is_superuser": true,
         "username": "admin",
         "first_name": "",
