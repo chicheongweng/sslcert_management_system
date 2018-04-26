@@ -25,7 +25,14 @@ from django.utils.translation import ugettext_lazy as _
 #     ("Site", ("sites.Site", "redirects.Redirect", "conf.Setting")),
 #     ("Users", ("auth.User", "auth.Group",)),
 # )
+ADMIN_MENU_ORDER = (
+     ("Content", ("pages.Page", "blog.BlogPost",)),
+#        "generic.ThreadedComment", (_("Media Library"), "media-library"),)),
+     ("Site", ("sites.Site", "redirects.Redirect", "conf.Setting")),
+     ("Users", ("auth.User", "auth.Group",)),
+ )
 
+ADMIN_REMOVAL = ['mezzanine.generic.models.ThreadedComment']
 # A three item sequence, each containing a sequence of template tags
 # used to render the admin dashboard.
 #
@@ -83,7 +90,7 @@ from django.utils.translation import ugettext_lazy as _
 
 # If True, the django-modeltranslation will be added to the
 # INSTALLED_APPS setting.
-USE_MODELTRANSLATION = False
+USE_MODELTRANSLATION = True
 
 
 ########################
@@ -92,7 +99,7 @@ USE_MODELTRANSLATION = False
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -101,7 +108,7 @@ ALLOWED_HOSTS = []
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Hong_Kong'
 
 # If you set this to True, Django will use timezone-aware datetimes.
 USE_TZ = True
@@ -113,12 +120,13 @@ LANGUAGE_CODE = "en"
 # Supported languages
 LANGUAGES = (
     ('en', _('English')),
+    ('zh-hans', _('Simplified Chinese')),
+    ('zh-hant', _('Traditional Chinese')),
 )
-
 # A boolean that turns on/off debug mode. When set to ``True``, stack traces
 # are displayed for error pages. Should always be set to ``False`` in
 # production. Best set to ``True`` in local_settings.py
-DEBUG = False
+DEBUG = True
 
 # Whether a user's session cookie expires when the Web browser is closed.
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
@@ -127,7 +135,7 @@ SITE_ID = 1
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
-USE_I18N = False
+USE_I18N = True
 
 AUTHENTICATION_BACKENDS = ("mezzanine.core.auth_backends.MezzanineBackend",)
 
@@ -234,6 +242,7 @@ if DJANGO_VERSION < (1, 9):
 ################
 
 INSTALLED_APPS = (
+    "modeltranslation",    
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -248,7 +257,7 @@ INSTALLED_APPS = (
     "mezzanine.generic",
     "mezzanine.pages",
     #"mezzanine.blog",
-    "mezzanine.forms",
+    #"mezzanine.forms",
     #"mezzanine.galleries",
     #"mezzanine.twitter",
     # "mezzanine.accounts",
@@ -345,3 +354,7 @@ except ImportError:
     pass
 else:
     set_dynamic_settings(globals())
+
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
+LOCALE_PATHS = [os.path.join(PROJECT_ROOT, "theme", "locale"),]
+DJANGO_TABLES2_TEMPLATE = 'django_tables2/bootstrap.html'
