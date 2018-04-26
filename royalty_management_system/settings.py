@@ -356,5 +356,5 @@ else:
     set_dynamic_settings(globals())
 
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
-LOCALE_PATHS = [os.path.join(PROJECT_ROOT, "theme", "locale"),]
+LOCALE_PATHS = [os.path.join(PROJECT_ROOT, "theme/locale"),]
 DJANGO_TABLES2_TEMPLATE = 'django_tables2/bootstrap.html'

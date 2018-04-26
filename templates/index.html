@@ -9,10 +9,9 @@
 {% endblock %}
 
 {% block main %}
-{% blocktrans %}
-<h2>Congratulations!</h2>
+<div style="text-align: center">
 <p>
-    Welcome to Royalty Management System!
+    {% trans "Welcome to Royalty Management System!" %}
 </p>
 <ul>
     <li><a href="/admin/">Log in to the admin interface</a></li>
@@ -21,5 +20,5 @@
     <li><a href="/songs/">View Songs</a></li>
     <li><a href="/reset/">Reset (Drop All Royalty Records)</a></li>
  </ul>
-{% endblocktrans %}
+</div>
 {% endblock %}

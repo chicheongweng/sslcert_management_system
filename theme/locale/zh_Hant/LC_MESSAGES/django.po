@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-26 13:51+0800\n"
+"POT-Creation-Date: 2018-04-26 14:07+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,15 +94,15 @@ msgstr ""
 msgid "Toggle Navigation"
 msgstr ""
 
-#: templates/base.html:135
+#: templates/base.html:143
 msgid "Powered by"
 msgstr ""
 
-#: templates/base.html:138
+#: templates/base.html:146
 msgid "and"
 msgstr ""
 
-#: templates/base.html:141
+#: templates/base.html:149
 msgid "Theme by"
 msgstr ""
 
@@ -110,18 +110,6 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/index.html:12
-msgid ""
-"\n"
-"<h2>Congratulations!</h2>\n"
-"<p>\n"
-"    Welcome to Royalty Management System!\n"
-"</p>\n"
-"<ul>\n"
-"    <li><a href=\"/admin/\">Log in to the admin interface</a></li>\n"
-"    <li><a href=\"/payees/\">View Payees</a></li>\n"
-"    <li><a href=\"/royalty/\">View Royalty</a></li>\n"
-"    <li><a href=\"/songs/\">View Songs</a></li>\n"
-"    <li><a href=\"/reset/\">Reset (Drop All Royalty Records)</a></li>\n"
-" </ul>\n"
-msgstr ""
+#: templates/index.html:13
+msgid "Welcome to Royalty Management System!"
+msgstr "歡迎使用版權費管理系統"
