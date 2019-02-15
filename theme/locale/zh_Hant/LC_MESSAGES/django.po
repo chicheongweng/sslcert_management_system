@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-26 14:07+0800\n"
+"POT-Creation-Date: 2019-02-15 08:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,51 +18,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: channels/models.py:8 songs/models.py:10
+#: channels/models.py:8
 msgid "Name"
 msgstr ""
 
-#: payees/models.py:11
-msgid "Company"
-msgstr ""
-
-#: payees/models.py:11 songs/models.py:12
-msgid "Singer"
-msgstr ""
-
-#: payees/models.py:11 songs/models.py:11
-msgid "Author"
-msgstr ""
-
 #: payees/models.py:12
+msgid "payee type"
+msgstr ""
+
+#: payees/models.py:13
 msgid "name"
 msgstr ""
 
-#: payees/models.py:14
+#: payees/models.py:15
 msgid "percentage"
 msgstr ""
 
-#: payees/models.py:17
+#: payees/models.py:16
+msgid "amount"
+msgstr ""
+
+#: payees/models.py:22
 msgid "Payee"
 msgstr ""
 
-#: payees/models.py:18
+#: payees/models.py:23
 msgid "Payees"
 msgstr ""
 
-#: royalty/models.py:10
+#: royalty/models.py:8
 msgid "Created At"
 msgstr ""
 
-#: royalty/models.py:11
+#: royalty/models.py:9
 msgid "Pay Date"
 msgstr ""
 
-#: royalty/models.py:12
+#: royalty/models.py:10
 msgid "Amount"
 msgstr ""
 
-#: royalty/models.py:15 royalty/models.py:16
+#: royalty/models.py:16 royalty/models.py:17
 msgid "Royalty"
 msgstr ""
 
@@ -78,15 +74,27 @@ msgstr ""
 msgid "Traditional Chinese"
 msgstr ""
 
+#: songs/models.py:10
+msgid "Title"
+msgstr ""
+
+#: songs/models.py:11
+msgid "Author"
+msgstr ""
+
+#: songs/models.py:12
+msgid "Singer"
+msgstr ""
+
 #: songs/models.py:13
 msgid "Play Time"
 msgstr ""
 
-#: songs/models.py:18
+#: songs/models.py:21
 msgid "Song"
 msgstr ""
 
-#: songs/models.py:19
+#: songs/models.py:22
 msgid "Songs"
 msgstr ""
 
@@ -110,6 +118,33 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/index.html:13
+#: templates/index.html:14
 msgid "Welcome to Royalty Management System!"
 msgstr "歡迎使用版權費管理系統"
+
+#: templates/index.html:17
+msgid "Total Number of Royalty"
+msgstr ""
+
+#: templates/index.html:20
+msgid "Total Number of Payees"
+msgstr ""
+
+#: templates/index.html:23
+msgid "Total Number of Songs"
+msgstr ""
+
+#: templates/payees/payee_list.html:7 templates/payees/payee_list.html:8
+#: templates/payees/payee_list.html:13
+msgid "Payee List"
+msgstr ""
+
+#: templates/royalty/royalty_list.html:7 templates/royalty/royalty_list.html:8
+#: templates/royalty/royalty_list.html:14
+msgid "Royalty List"
+msgstr ""
+
+#: templates/songs/song_list.html:7 templates/songs/song_list.html:8
+#: templates/songs/song_list.html:14
+msgid "Song List"
+msgstr ""
