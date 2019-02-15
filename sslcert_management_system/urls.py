@@ -11,7 +11,7 @@ from mezzanine.conf import settings
 from royalty.views import RoyaltyListView
 from songs.views import SongListView
 from payees.views import PayeeListView
-from royalty_management_system.views import IndexView
+from sslcert_management_system.views import IndexView
 
 # Uncomment to use blog as home page. See also urlpatterns section below.
 # from mezzanine.blog import views as blog_views
