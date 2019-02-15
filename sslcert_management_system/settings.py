@@ -267,6 +267,7 @@ INSTALLED_APPS = (
     "royalty",
     "payees",
     "songs",
+    "certs",
     "django_tables2",
 )
 
