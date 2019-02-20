@@ -269,6 +269,7 @@ INSTALLED_APPS = (
     "songs",
     "certs",
     "django_tables2",
+    "sslcerts",
 )
 
 # List of middleware classes to use. Order is important; in the request phase,
