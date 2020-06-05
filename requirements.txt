@@ -1,4 +1,4 @@
-Django==1.11
+Django==1.11.29
 Faker==0.8.13
 Mezzanine==4.2.3
 Pillow==5.1.0
